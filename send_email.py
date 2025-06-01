@@ -6,12 +6,10 @@ load_dotenv()
 friend_name = "Алексей"
 my_name = "Антон"
 website = 'https://dvmn.org/profession-ref-program/sobol.tosha/TOnJT/'
-email_subject = "Приглашение!"
-
 email_from = os.environ['login']
 email_to = os.environ['login']
 password = os.environ['password']
-
+email_subject = "Приглашение!"
 
 letter = """From: {email_from}
 To: {email_to}
